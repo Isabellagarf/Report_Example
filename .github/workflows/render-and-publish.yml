@@ -16,23 +16,21 @@ jobs:
         
       - name: Install remotes; needed for next line
         run: Rscript -e 'install.packages(c("remotes"))'
-        
-      - name: Install gt; no binary on cran
-        run: Rscript -e 'install.packages(c("gt", "devtools", "knitr", "rmarkdown", "ggplot2", "here"))'
 
       - name: Install packages (needed for Rmd)
         run: Rscript -e 'remotes::install_deps(quiet = TRUE, upgrade="never", build=FALSE)'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           # To install LaTeX to build PDF book 
           tinytex: true 
-          run: tinytex::tlmgr_update()
           
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
