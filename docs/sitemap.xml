@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-tech-memo-template/index.html</loc>
-    <lastmod>2025-01-14T16:19:45.362Z</lastmod>
+    <lastmod>2025-01-15T01:43:18.204Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-tech-memo-template/text/Chapter1.html</loc>
-    <lastmod>2025-01-13T23:20:37.053Z</lastmod>
+    <lastmod>2025-01-15T01:43:18.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-tech-memo-template/text/conclusion.html</loc>
+    <lastmod>2025-01-15T02:05:39.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-tech-memo-template/text/references.html</loc>
+    <lastmod>2025-01-15T01:43:18.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-tech-memo-template/Vessel-presence-in-Two-Rocks-Marine-Park-assessed-using-passive-acoustic-monitoring.docx</loc>
+    <lastmod>2025-01-15T02:26:13.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-tech-memo-template/Vessel-presence-in-Two-Rocks-Marine-Park-assessed-using-passive-acoustic-monitoring.pdf</loc>
+    <lastmod>2025-01-15T02:26:19.562Z</lastmod>
   </url>
 </urlset>

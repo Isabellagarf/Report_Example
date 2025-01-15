@@ -29,7 +29,7 @@ format:
       vrule-width: 0pt
       bg-image-size: "0.75\\paperwidth"
       bg-image-location: "ULCorner"
-    coverpage: true
+    coverpage: false
     coverpage-bg-image: "images/cover-header-2.png"
     coverpage-header: "NOAA Technical Memorandum NMFS-XXX-##"
     coverpage-date: "January 2023"

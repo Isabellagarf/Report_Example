@@ -6,7 +6,7 @@ name: Render and Publish
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -17,23 +17,8 @@ jobs:
       - name: Install remotes; needed for next line
         run: Rscript -e 'install.packages(c("remotes"))'
         
-      - name: Install gt; no binary on cran
-        run: Rscript -e 'install.packages(c("gt"))'
-        
-      - name: Install devtools
-        run: Rscript -e 'install.packages(c("devtools"))'
-        
-      - name: Install knitr
-        run: Rscript -e 'install.packages(c("knitr"))'
-        
-      - name: Install rmarkdown
-        run: Rscript -e 'install.packages(c("rmarkdown"))'
-        
-      - name: Install ggplot2
-        run: Rscript -e 'install.packages(c("ggplot2"))'
-      
-      - name: Install here
-        run: Rscript -e 'install.packages(c("here"))'
+#      - name: Install gt; no binary on cran
+#        run: Rscript -e 'install.packages(c("gt", "devtools", "knitr", "rmarkdown", "ggplot2", "here"))'
 
       - name: Install packages (needed for Rmd)
         run: Rscript -e 'remotes::install_deps(quiet = TRUE, upgrade="never", build=FALSE)'
