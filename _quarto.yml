@@ -28,7 +28,8 @@ book:
   chapters:
     - index.qmd
     - text/Chapter1.qmd
-    - text/conclusion.qmd
+    - text/Results.qmd
+    - text/Discussion.qmd
     - text/references.qmd
 
   site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/

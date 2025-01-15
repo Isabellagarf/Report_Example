@@ -1,0 +1,21 @@
+---
+title: Discussion and Recommendations
+---
+## Patterns of vessel presence
+
+Vessel signatures were present throughout the recordings made at two sites within the Two Rocks Marine Park NPZ. The deployment period captured vessel presence during two major holidays: Christmas Day (25-Dec) and New Year’s Day (01-Jan). Vessels, particularly those containing maneuvers, increased in presence leading up to each holiday; however, the holidays themselves showed a marked decrease in presence. Overall, vessels were most prevalent towards the end of the week, and this general pattern may have contributed to lower presence on Christmas Day and New Year’s Day which both occurred on Sundays during the deployment period. Total vessel presence was also highest during daylight hours, which is consistent with other monitored parks.
+
+The majority of vessels were estimated to occur outside of the park boundaries ($P_{in} > 0.75$) = TRE: 33/548 usable vessels, 94.0%; TRW: 28/327 usable vessels, 91.4%), which suggests relatively high compliance as in other analyzed NPZs: Ningaloo Marine Park (nwninnpz02)(McCordic et al. 2021), Dampier Marine Park (nwdamnpz01) (McCordic et al. 2022), Cod Grounds Marine Park (tecodnpz01) (Kline et al. 2020; McCordic et al. 2020), Solitary Islands Marine Park (tesolnpz02) (Kline et al. 2020; McCordic et al. 2020). Vessels within the NPZ boundaries showed similar temporal patterns in terms of weekday and diel presence as the patterns seen in all detected vessels. Most vessels occurred late in the week and on weekends, and most vessels were present within the NPZ boundaries between late morning and early afternoon. Between the two sites, the majority of vessels within the NPZ
+boundaries contained maneuvers, and vessels with maneuvers were driving the observed weekday and diel patterns of vessels within the NPZ.
+
+## Recommendations for monitoring
+
+As seen previously at Two Rocks Marine Park, the total vessel counts over the deployment period are considerably higher than other reported NPZs, which is likely due to the proximity of the park to Perth as well as its proximity to shore. Despite a low recall value of the detector at both sites, due to the overall high vessel numbers in Two Rocks Marine Park and a relatively high precision of the detector, the ship detector alone is likely sufficient to determine general patterns of vessel presence without additional manual review.
+
+Vessels were estimated to occur within the NPZ boundaries throughout the entire deployment period, and the majority of those vessels contained at least one maneuver. Although a maneuver is not diagnostic of a vessel’s specific activity, it can be used as a proxy for fishing activity and warrants further investigation (e.g., Kline et al. 2020). Similar to total vessel presence, activity of vessels estimated within the NPZ boundaries showed a peak prior to the Christmas and New Year’s Day holidays.
+
+Due to the high prevalence of vessel signatures late in the week—Thursday through Saturday—we recommend increased patrol efforts on these days. During holiday periods, additional surveys on days leading up to holidays may also result in increased interactions with vessels in the NPZ rather than surveying on the holidays themselves. This pattern may change in other years, however, depending on the weekday on which holidays occur (e.g., if the holidays fall on a later weekday rather than a Sunday). Since the majority of vessels occur early in the day, visual patrols (aerial or ship-based) focusing on these times would provide a valuable
+complement to the results presented here.
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```

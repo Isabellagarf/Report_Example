@@ -130,8 +130,6 @@ At TRE, all vessels with $P_{in} > 0.75$ occurred between 00:00 - 15:00 AWST (ra
 TRW showed a similar concentration of vessel activity early in the day, with the majority of vessels within the NPZ occurring between 05:00 and 15:00 AWST (N = 32, range = 1 – 6 per hour) (Fig. 8). The single vessel outside of daylight hours occurred at 22:00 AWST. Vessel activity peaked at 10:00 (N = 6), with a secondary peak at 08:00 (N = 4).
 
 ![Figure 8: Counts of vessel signatures estimated within park boundaries($P_{in} > 0.75$) per hour separated by behavioral category. Hourly presence counts reflect the start time of each vessel signature. Times are reported in local time (AWST, UTC+8). T = transit, M = maneuver.](/images/Figure.8.PNG)
-
-
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```

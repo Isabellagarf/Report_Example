@@ -9,6 +9,42 @@ calcareous sand and gravel (Lucieer et al. 2017). Recorders were deployed at two
 NPZ—Two Rocks East (TRE) and Two Rocks West (TRW)—to maximize coverage of the
 monitoring area (Table 1, Fig. 1).
 
+**Table 1:** Summary of recording effort
+![](/images/Table.1.PNG)
+
+
+![**Figure 1:** Map of Soundtrap deployment sites within Two Rocks Marine Park. Green shaded region indicates NPZ boundary within larger marine park](/images/Fig.1.PNG)
+
+## Propagation modeling
+
+The calibration tracks resulted in 156 location selections for TRE and 333 location selections for
+TRW. After reviewing the peak frequency measurements and iteratively removing outliers using
+Matlab’s Curve Fitting tool, 154 points from TRE and 165 points from TRE were used in the
+final model of transmission loss.
+
+## Detecting unknown vessels
+
+Using the Ship Detector Remora attached to Triton software (version 1.93.20160524), potential
+vessel passages were automatically selected from a long-term spectral average (LTSA) of each
+deployment. We conducted a hybrid methodology using the results from the detector with a
+manual review of the data at one site to examine whether the detector performance was sufficient
+for this project. All vessel detections at both TRE and TRW were reviewed using spectrograms
+in Raven Pro 2.0 as described in the SOP to determine start and end times.
+For TRE, after running the detector, we manually reviewed the LTSA calculated in Triton to look
+for any vessel signatures that may have been missed by the detector. Potential vessels found
+during this step were compared against the start and end times of automated detections to
+determine if they were new vessels. Following review of TRE, a subset of the first 19 days of the
+TRW deployment (33% of days) were manually reviewed for vessels missed by the detector.
+Precision of the detector was calculated for both sites following manual review of detected
+events using the full deployment length at TRE and the 19-day subset at TRW.
+
+## Determining vessel presence within MPA boundaries
+
+A subset of suitable vessels was further analyzed to determine the likelihood of occurring within
+the NPZ boundaries based on modeled values of source level for each vessel and transmission
+loss at each site. Furthermore, the vessel behavioral categories were simplified from previous
+deployments and included two categories: transiting (T) and maneuvering (M) vessels.
+
 
 
 ```{=openxml}
