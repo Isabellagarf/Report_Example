@@ -22,11 +22,11 @@ to TRE (0.86).
 The total number of detected ship events at both sites includes vessel events under 500 Hz,
 which are not used in further analysis throughout this report.
 
-**Table 2:** Detection matrix for automated ship detector used in Two Rocks East site. The
+
+![**Table 2:** Detection matrix for automated ship detector used in Two Rocks East site. The
 predicted condition indicates the number of events the detector identified as either “ship” or
 “ambient”, and the true condition indicates the number of events identified by manually
-reviewing the detections and the LTSA.
-![](/images/Table.2.PNG)
+reviewing the detections and the LTSA.](/images/Table.2.PNG)
 
 ## Overall Patterns of Vessel Presence
 
@@ -47,8 +47,7 @@ throughout the month of December until a sharp decline on December 25 (Christmas
 similar increasing trend occurred between December 25 and December 31 prior to a drop in
 presence on January 1 (New Year’s Day).
 
-**Table 3:** Summary of duration of discrete vessel events at each site.
-![](/images/Table.3.PNG)
+![**Table 3:** Summary of duration of discrete vessel events at each site.](/images/Table.3.PNG)
 
 
 \
@@ -110,9 +109,8 @@ At both sites, vessels were present inside the park boundary ($P_{in} > 0.75$) t
 
 
 
-**Table 4:** Summary of vessel presence and vessels at each recording site estimated to occur within
-the park boundaries surrounding Two Rocks East and Two Rocks West sites.
-![](/images/Table.4.PNG)
+![**Table 4:** Summary of vessel presence and vessels at each recording site estimated to occur within
+the park boundaries surrounding Two Rocks East and Two Rocks West sites.](/images/Table.4.PNG)
 
 
 ![**Figure 6:** Daily vessel duration (hour) of vessels estimated within park boundaries($P_{in} > 0.75$) T = transit, M = maneuver.](/images/Figure.6.PNG)
@@ -121,7 +119,7 @@ the park boundaries surrounding Two Rocks East and Two Rocks West sites.
 
 At TRE, Fridays had the highest vessel presence (N = 8), followed by Saturdays, Thursdays, and Tuesdays (N = 6 each day) (Fig. 7). The two transiting vessels without a maneuver occurred on Thursday and Friday (N = 1 vessel each day). At TRW, there was a more apparent effect of weekday, with 39.3% of all vessels with $P_{in} > 0.75$ occurring on Thursdays (N = 11).
 
-![Figure 7: Vessel activity by day of week and behavioral category of vessels estimated within park boundaries($P_{in} > 0.75$) T = transit, M = maneuver.](/images/Figure.7.PNG)
+![**Figure 7:** Vessel activity by day of week and behavioral category of vessels estimated within park boundaries($P_{in} > 0.75$) T = transit, M = maneuver.](/images/Figure.7.PNG)
 
 ## Diel Vessel Presence within Park Boundaries
 
@@ -129,7 +127,7 @@ At TRE, all vessels with $P_{in} > 0.75$ occurred between 00:00 - 15:00 AWST (ra
 
 TRW showed a similar concentration of vessel activity early in the day, with the majority of vessels within the NPZ occurring between 05:00 and 15:00 AWST (N = 32, range = 1 – 6 per hour) (Fig. 8). The single vessel outside of daylight hours occurred at 22:00 AWST. Vessel activity peaked at 10:00 (N = 6), with a secondary peak at 08:00 (N = 4).
 
-![Figure 8: Counts of vessel signatures estimated within park boundaries($P_{in} > 0.75$) per hour separated by behavioral category. Hourly presence counts reflect the start time of each vessel signature. Times are reported in local time (AWST, UTC+8). T = transit, M = maneuver.](/images/Figure.8.PNG)
+![**Figure 8:** Counts of vessel signatures estimated within park boundaries($P_{in} > 0.75$) per hour separated by behavioral category. Hourly presence counts reflect the start time of each vessel signature. Times are reported in local time (AWST, UTC+8). T = transit, M = maneuver.](/images/Figure.8.PNG)
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
