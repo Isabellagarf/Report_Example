@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../text/conclusion.html" rel="next">
+<link href="../text/Results.html" rel="next">
 <link href="../index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -140,8 +140,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../text/conclusion.html" class="sidebar-item-text sidebar-link">
+  <a href="../text/Results.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Results</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../text/Discussion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Discussion and Recommendations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -155,8 +161,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#propagation-modeling" id="toc-propagation-modeling" class="nav-link active" data-scroll-target="#propagation-modeling"><span class="header-section-number">1.1</span> Propagation modeling</a></li>
+  <li><a href="#detecting-unknown-vessels" id="toc-detecting-unknown-vessels" class="nav-link" data-scroll-target="#detecting-unknown-vessels"><span class="header-section-number">1.2</span> Detecting unknown vessels</a></li>
+  <li><a href="#determining-vessel-presence-within-mpa-boundaries" id="toc-determining-vessel-presence-within-mpa-boundaries" class="nav-link" data-scroll-target="#determining-vessel-presence-within-mpa-boundaries"><span class="header-section-number">1.3</span> Determining vessel presence within MPA boundaries</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/Isabellagarf/Report_Example/edit/main/text/Chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Isabellagarf/Report_Example/blob/main/text/Chapter1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Isabellagarf/Report_Example/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -181,8 +195,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Two Rocks Marine Park is part of the South-west Regional Management Network of the Australian Marine Parks system. The selected National Park Zone (NPZ) (swtwonpz02) represents a relatively shallow coastal habitat with a bottom type primarily consisting of calcareous sand and gravel (Lucieer et al.&nbsp;2017). Recorders were deployed at two sites within the NPZ—Two Rocks East (TRE) and Two Rocks West (TRW)—to maximize coverage of the monitoring area (Table 1, Fig. 1).</p>
+<p><strong>Table 1:</strong> Summary of recording effort <img src="../images/Table.1.PNG" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Fig.1.PNG" class="img-fluid figure-img"></p>
+<figcaption><strong>Figure 1:</strong> Map of Soundtrap deployment sites within Two Rocks Marine Park. Green shaded region indicates NPZ boundary within larger marine park</figcaption>
+</figure>
+</div>
+<section id="propagation-modeling" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="propagation-modeling"><span class="header-section-number">1.1</span> Propagation modeling</h2>
+<p>The calibration tracks resulted in 156 location selections for TRE and 333 location selections for TRW. After reviewing the peak frequency measurements and iteratively removing outliers using Matlab’s Curve Fitting tool, 154 points from TRE and 165 points from TRE were used in the final model of transmission loss.</p>
+</section>
+<section id="detecting-unknown-vessels" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="detecting-unknown-vessels"><span class="header-section-number">1.2</span> Detecting unknown vessels</h2>
+<p>Using the Ship Detector Remora attached to Triton software (version 1.93.20160524), potential vessel passages were automatically selected from a long-term spectral average (LTSA) of each deployment. We conducted a hybrid methodology using the results from the detector with a manual review of the data at one site to examine whether the detector performance was sufficient for this project. All vessel detections at both TRE and TRW were reviewed using spectrograms in Raven Pro 2.0 as described in the SOP to determine start and end times. For TRE, after running the detector, we manually reviewed the LTSA calculated in Triton to look for any vessel signatures that may have been missed by the detector. Potential vessels found during this step were compared against the start and end times of automated detections to determine if they were new vessels. Following review of TRE, a subset of the first 19 days of the TRW deployment (33% of days) were manually reviewed for vessels missed by the detector. Precision of the detector was calculated for both sites following manual review of detected events using the full deployment length at TRE and the 19-day subset at TRW.</p>
+</section>
+<section id="determining-vessel-presence-within-mpa-boundaries" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="determining-vessel-presence-within-mpa-boundaries"><span class="header-section-number">1.3</span> Determining vessel presence within MPA boundaries</h2>
+<p>A subset of suitable vessels was further analyzed to determine the likelihood of occurring within the NPZ boundaries based on modeled values of source level for each vessel and transmission loss at each site. Furthermore, the vessel behavioral categories were simplified from previous deployments and included two categories: transiting (T) and maneuvering (M) vessels.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -609,7 +642,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../text/conclusion.html" class="pagination-link" aria-label="Results">
+      <a href="../text/Results.html" class="pagination-link" aria-label="Results">
         <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Results</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -619,4 +652,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/Isabellagarf/Report_Example/edit/main/text/Chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Isabellagarf/Report_Example/blob/main/text/Chapter1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Isabellagarf/Report_Example/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Isabellagarf/Report_Example/edit/main/text/Chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Isabellagarf/Report_Example/blob/main/text/Chapter1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Isabellagarf/Report_Example/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
