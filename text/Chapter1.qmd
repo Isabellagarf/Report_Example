@@ -9,8 +9,8 @@ calcareous sand and gravel (Lucieer et al. 2017). Recorders were deployed at two
 NPZ—Two Rocks East (TRE) and Two Rocks West (TRW)—to maximize coverage of the
 monitoring area (Table 1, Fig. 1).
 
-**Table 1:** Summary of recording effort
-![](/images/Table.1.PNG)
+
+![**Table 1:** Summary of recording effort](/images/Table.1.PNG)
 
 
 ![**Figure 1:** Map of Soundtrap deployment sites within Two Rocks Marine Park. Green shaded region indicates NPZ boundary within larger marine park](/images/Fig.1.PNG)
