@@ -23,7 +23,7 @@ The total number of detected ship events at both sites includes vessel events un
 which are not used in further analysis throughout this report.
 
 
-![**Table 2:** Detection matrix for automated ship detector used in Two Rocks East site. The
+![Detection matrix for automated ship detector used in Two Rocks East site. The
 predicted condition indicates the number of events the detector identified as either “ship” or
 “ambient”, and the true condition indicates the number of events identified by manually
 reviewing the detections and the LTSA.](/images/Table.2.PNG)
@@ -47,11 +47,15 @@ throughout the month of December until a sharp decline on December 25 (Christmas
 similar increasing trend occurred between December 25 and December 31 prior to a drop in
 presence on January 1 (New Year’s Day).
 
-![**Table 3:** Summary of duration of discrete vessel events at each site.](/images/Table.3.PNG)
 
-
-\
-
+```{r, echo=FALSE,warning=FALSE,message=FALSE,error=FALSE}
+library(readr)
+Table_3 <- read_csv("Example_Tbl3_AMPreport.csv")
+#| tbl-cap-location: margin
+knitr::kable(
+  Table_3[1:4, 1:4], caption = 'Vessel variance.'
+)
+```
 ![**Figure 2:** Daily vessel duration (hour) separated by site. Left: Total deployment length, Right: Two-week subset of dates highlighting vessel presence surrounding Christmas and New Year’s Day holidays. TRE = Two Rocks East; TRW = Two Rocks West.](/images/Figure.2.PNG)
 
 

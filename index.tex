@@ -472,12 +472,19 @@ The total number of detected ship events at both sites includes vessel
 events under 500 Hz, which are not used in further analysis throughout
 this report.
 
-\textbf{Table 2:} Detection matrix for automated ship detector used in
-Two Rocks East site. The predicted condition indicates the number of
-events the detector identified as either ``ship'' or ``ambient'', and
-the true condition indicates the number of events identified by manually
-reviewing the detections and the LTSA.
-\includegraphics{images/Table.2.PNG}
+\begin{figure}[H]
+
+{\centering \includegraphics{images/Table.2.PNG}
+
+}
+
+\caption{Detection matrix for automated ship detector used in Two Rocks
+East site. The predicted condition indicates the number of events the
+detector identified as either ``ship'' or ``ambient'', and the true
+condition indicates the number of events identified by manually
+reviewing the detections and the LTSA.}
+
+\end{figure}%
 
 \section{Overall Patterns of Vessel
 Presence}\label{overall-patterns-of-vessel-presence}
@@ -502,10 +509,25 @@ decline on December 25 (Christmas holiday). A similar increasing trend
 occurred between December 25 and December 31 prior to a drop in presence
 on January 1 (New Year's Day).
 
-\textbf{Table 3:} Summary of duration of discrete vessel events at each
-site. \includegraphics{images/Table.3.PNG}
-
-\hfill\break
+\begin{longtable}[]{@{}lrlr@{}}
+\caption{Vessel variance.}\tabularnewline
+\toprule\noalign{}
+Site & N Vessels & Duration Range (minutes) & Duration Median
+(Minutes) \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+Site & N Vessels & Duration Range (minutes) & Duration Median
+(Minutes) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+East & 660 & 1.01-260.0 & 24.2 \\
+West & 277 & 0.62-430.1 & 30.3 \\
+NA & NA & NA & NA \\
+NA & NA & NA & NA \\
+\end{longtable}
 
 \begin{figure}[H]
 
@@ -630,11 +652,17 @@ At both sites, vessels were present inside the park boundary
 vessel presence by duration occurring in late December (TRE: December
 23, 1.78 hours; TRW: December 29, 2.72 hours) (Fig. 6).
 
-\textbf{Table 4:} Summary of vessel presence and vessels at each
-recording site estimated to occur within the park boundaries surrounding
-Two Rocks East and Two Rocks West sites.
-\includegraphics{images/Table.4.PNG}
+\begin{figure}[H]
 
+{\centering \includegraphics{images/Table.4.PNG}
+
+}
+
+\caption{\textbf{Table 4:} Summary of vessel presence and vessels at
+each recording site estimated to occur within the park boundaries
+surrounding Two Rocks East and Two Rocks West sites.}
+
+\end{figure}%%
 \begin{figure}[H]
 
 {\centering \includegraphics{images/Figure.6.PNG}
@@ -663,9 +691,9 @@ Thursdays (N = 11).
 
 }
 
-\caption{Figure 7: Vessel activity by day of week and behavioral
-category of vessels estimated within park boundaries(\(P_{in} > 0.75\))
-T = transit, M = maneuver.}
+\caption{\textbf{Figure 7:} Vessel activity by day of week and
+behavioral category of vessels estimated within park
+boundaries(\(P_{in} > 0.75\)) T = transit, M = maneuver.}
 
 \end{figure}%
 
@@ -690,11 +718,11 @@ at 10:00 (N = 6), with a secondary peak at 08:00 (N = 4).
 
 }
 
-\caption{Figure 8: Counts of vessel signatures estimated within park
-boundaries(\(P_{in} > 0.75\)) per hour separated by behavioral category.
-Hourly presence counts reflect the start time of each vessel signature.
-Times are reported in local time (AWST, UTC+8). T = transit, M =
-maneuver.}
+\caption{\textbf{Figure 8:} Counts of vessel signatures estimated within
+park boundaries(\(P_{in} > 0.75\)) per hour separated by behavioral
+category. Hourly presence counts reflect the start time of each vessel
+signature. Times are reported in local time (AWST, UTC+8). T = transit,
+M = maneuver.}
 
 \end{figure}%
 
