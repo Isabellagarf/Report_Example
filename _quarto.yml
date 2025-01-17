@@ -27,10 +27,10 @@ book:
 
   chapters:
     - index.qmd
-    - text/Chapter1.qmd
-    - text/Results.qmd
-    - text/Discussion.qmd
-    - text/references.qmd
+    - Chapter1.qmd
+    - Results.qmd
+    - Discussion.qmd
+    - references.qmd
 
   site-url: https://nmfs-opensci.github.io/NOAA-tech-memo-template/
   repo-url: https://github.com/Isabellagarf/Report_Example
@@ -38,7 +38,7 @@ book:
   search: true
 
 bibliography: 
-  - text/references.bib
+  - references.bib
 
 execute:
   echo: false

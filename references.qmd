@@ -1,5 +1,4 @@
 # References {.unnumbered}
 
 ::: {#refs}
-@KLINE2020
 :::

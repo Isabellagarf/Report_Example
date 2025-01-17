@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "Chapter1.html",
+    "href": "Chapter1.html",
+    "title": "1  Site description and recording effort",
+    "section": "",
+    "text": "1.1 Propagation modeling\nThe calibration tracks resulted in 156 location selections for TRE and 333 location selections for TRW. After reviewing the peak frequency measurements and iteratively removing outliers using Matlab’s Curve Fitting tool, 154 points from TRE and 165 points from TRE were used in the final model of transmission loss.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Site description and recording effort</span>"
+    ]
+  },
+  {
+    "objectID": "Chapter1.html#detecting-unknown-vessels",
+    "href": "Chapter1.html#detecting-unknown-vessels",
+    "title": "1  Site description and recording effort",
+    "section": "1.2 Detecting unknown vessels",
+    "text": "1.2 Detecting unknown vessels\nUsing the Ship Detector Remora attached to Triton software (version 1.93.20160524), potential vessel passages were automatically selected from a long-term spectral average (LTSA) of each deployment. We conducted a hybrid methodology using the results from the detector with a manual review of the data at one site to examine whether the detector performance was sufficient for this project. All vessel detections at both TRE and TRW were reviewed using spectrograms in Raven Pro 2.0 as described in the SOP to determine start and end times. For TRE, after running the detector, we manually reviewed the LTSA calculated in Triton to look for any vessel signatures that may have been missed by the detector. Potential vessels found during this step were compared against the start and end times of automated detections to determine if they were new vessels. Following review of TRE, a subset of the first 19 days of the TRW deployment (33% of days) were manually reviewed for vessels missed by the detector. Precision of the detector was calculated for both sites following manual review of detected events using the full deployment length at TRE and the 19-day subset at TRW.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Site description and recording effort</span>"
+    ]
+  },
+  {
+    "objectID": "Chapter1.html#determining-vessel-presence-within-mpa-boundaries",
+    "href": "Chapter1.html#determining-vessel-presence-within-mpa-boundaries",
+    "title": "1  Site description and recording effort",
+    "section": "1.3 Determining vessel presence within MPA boundaries",
+    "text": "1.3 Determining vessel presence within MPA boundaries\nA subset of suitable vessels was further analyzed to determine the likelihood of occurring within the NPZ boundaries based on modeled values of source level for each vessel and transmission loss at each site. Furthermore, the vessel behavioral categories were simplified from previous deployments and included two categories: transiting (T) and maneuvering (M) vessels.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Site description and recording effort</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html",
+    "href": "Results.html",
+    "title": "2  Results",
+    "section": "",
+    "text": "2.1 Detector Performance\nThe vessel detector found a total of 487 events at TRE and 546 events at TRW. Of the events at TRE, 54 events were correctly identified as vessels, and 162 were correctly identified as ambient noise. An additional 9 ambient events were incorrectly identified as vessels, and 262 true ship events were incorrectly classified as ambient noise (Table 2). After manual review of the LTSA, 344 vessels missed by the detector were added to the analysis for TRE. Including these added vessels as false negatives, this detector has a recall value of 0.08 and a precision value of 0.86 (Table 2).\nAt TRW, the detector correctly classified 60 events as vessels and 195 events as ambient noise. There were 4 false positive events where the detector incorrectly classified ambient noise as ship events and 287 false negative events where ships were incorrectly classified as ambient noise. Manual review of the LTSA was completed for the first 19 days of the deployment, in which 29 additional vessel passages were observed. The precision of the TRW detector (0.93) was similar to TRE (0.86).\nThe total number of detected ship events at both sites includes vessel events under 500 Hz, which are not used in further analysis throughout this report.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#detector-performance",
+    "href": "Results.html#detector-performance",
+    "title": "2  Results",
+    "section": "",
+    "text": "Detection matrix for automated ship detector used in Two Rocks East site. The predicted condition indicates the number of events the detector identified as either “ship” or “ambient”, and the true condition indicates the number of events identified by manually reviewing the detections and the LTSA.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#overall-patterns-of-vessel-presence",
+    "href": "Results.html#overall-patterns-of-vessel-presence",
+    "title": "2  Results",
+    "section": "2.2 Overall Patterns of Vessel Presence",
+    "text": "2.2 Overall Patterns of Vessel Presence\nAfter manually reviewing the detections and the LTSA, TRE had a total vessel count of 660 signatures. For TRW, manual review of detections resulted in a total of 377 vessel signatures. At both sites, vessel activity occurred throughout the deployment, although vessels were not present every day. At TRE, vessels occurred on 56/57 days (98.2% of days, mean of 11.7 vessels/day present), and in TRW vessels occurred on 54/57 days (94.7% of days, mean of 7 vessels/day present).\nBoth sites showed similarities in duration of individual vessel signatures, with median values within 5 minutes (TRE = 24.2 minutes; TRW = 30.3 minutes); however, TRW showed a much greater range of durations, with the longest continuous vessel signature lasting over 7 hours (Table 3, Fig. 2).\nAlthough vessels were present throughout the deployment, presence generally increased throughout the month of December until a sharp decline on December 25 (Christmas holiday). A similar increasing trend occurred between December 25 and December 31 prior to a drop in presence on January 1 (New Year’s Day).\n\n\n\nVessel variance.\n\n\nSite\nN Vessels\nDuration Range (minutes)\nDuration Median (Minutes)\n\n\n\n\nEast\n660\n1.01-260.0\n24.2\n\n\nWest\n277\n0.62-430.1\n30.3\n\n\nNA\nNA\nNA\nNA\n\n\nNA\nNA\nNA\nNA\n\n\n\n\n\n\n\n\nFigure 2: Daily vessel duration (hour) separated by site. Left: Total deployment length, Right: Two-week subset of dates highlighting vessel presence surrounding Christmas and New Year’s Day holidays. TRE = Two Rocks East; TRW = Two Rocks West.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#weekday-vessel-presence",
+    "href": "Results.html#weekday-vessel-presence",
+    "title": "2  Results",
+    "section": "2.3 Weekday Vessel Presence",
+    "text": "2.3 Weekday Vessel Presence\nAt both TRE and TRW, there was a pattern of higher vessel activity in the latter half of the week, with the highest number of vessels occurring on Thursdays (TRE: N = 117; TRW: N = 89). Over half of all vessels occurred between Thursdays and Saturdays (TRE: N = 530, 80.3%; TRW: N = 237, 62.9%) (Fig. 3).\nBoth sites showed the lowest overall activity on Mondays (TRE: N = 71, 10.7%; TRW: N = 39, 10.3%) and Sundays (TRE: N = 80, 12.1%; TRW: N = 40, 10.6%).\n\n\n\nFigure 3: Vessel activity by day of week at each site. TRE = Two Rocks East, TRW = Two Rocks West.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#diel-vessel-presence",
+    "href": "Results.html#diel-vessel-presence",
+    "title": "2  Results",
+    "section": "2.4 Diel Vessel Presence",
+    "text": "2.4 Diel Vessel Presence\nBased on sunrise (05:05 – 05:28) and sunset (19:01 – 19:26) times throughout the deployment, most vessels at both sites occurred during daylight hours (05:00 – 18:00; TRE: N = 607, 92.0%, median = 52.5 vessels/hour; TRW: N = 329, 80.6%, median = 28.5 vessels/hour). The highest number of vessels in a single hour occurred at 07:00 at TRE (N = 80) and at 08:00 at TRW (N = 43) (Fig. 4).\nOutside of these hours, the highest presence was in the 04:00 hour just before sunrise (TRE: N = 26; TRW: N = 15). The remaining hours (20:00 – 03:00) were consistently lower in vessel counts (TRE: median = 2 vessels/hour, range = 0 – 7; TRW: median = 3 vessels/hour, range = 1 - 7).\n\n\n\nFigure 4: Counts of vessel signatures per hour at each site. Hourly presence counts reflect the start time of each vessel signature. Times are reported in local time (AWST, UTC +8).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#propagation-modeling-and-detection-range",
+    "href": "Results.html#propagation-modeling-and-detection-range",
+    "title": "2  Results",
+    "section": "2.5 Propagation modeling and detection range",
+    "text": "2.5 Propagation modeling and detection range\nThe following transmission loss (TL) equation was fit using empirical RL data from the calibration tracks made at TRE (Eq. 1, Fig. 5). The TRW calibration tracks did not result in a plausible model of transmission loss, but due to similarity of habitat between the two sites, the TL model from TRE was used to determine vessels likely to occur within the NPZ boundaries for both sites.\n(Eq. 1): \\[\nTL_{TRE} = 19.94((r)) + 0.0000r\n\\]\n\n\n\nFigure 5: Regression line of received levels measured from acoustic recordings versus deployment vessel ranges taken from GPS points taken from Two Rocks East (TRE) sites. Color scale indicates peak frequency value of sound for each sound clip.\n\n\nModeled transmission loss and ambient noise levels were similar between TRE and TRW, with \\(NL_{50}\\) values of 82.7 dB re 1μPa at TRE and 81.1 dB re 1μPa at TRW. The maximum detection distance for a representative medium-sized vessel at each site was also similar between the sites: TRE = 13.4 km, TRW = 16.1 km. The weighted mean distance between the recorder and the park boundary was 1851 meters for TRE and 1779 meters for TRW.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#total-vessel-presence-within-park-boundaries",
+    "href": "Results.html#total-vessel-presence-within-park-boundaries",
+    "title": "2  Results",
+    "section": "2.6 Total Vessel Presence within Park Boundaries",
+    "text": "2.6 Total Vessel Presence within Park Boundaries\nFor TRE, 548 of the original 660 vessels were usable for propagation analysis. Of those, 181 (33.0% of usable vessels) were likely to occur within the NPZ boundary assuming they were small vessels (SL: 125 – 150 dB re 1μPa). Of those, 172 vessel signatures contained a maneuver (95.0%) (Table 4). Further, there were 33 vessels (6.0% of usable vessels) estimated to occur within the NPZ assuming they were either small or medium vessels (SL: 125 – 170 dB re 1μPa), with 31 signatures (93.9%) containing a maneuver (Table 4).\nAt TRW, 327 of the original 377 vessels were usable for propagation analysis. There were 105 vessels (32.1% of usable vessels) with \\(P_{small\\;in} &gt; 0.75\\). Of those, a majority of the signatures contained a maneuver (N = 100, 95.2%). If vessels were assumed to belong to either a small or medium size class, then 28 vessels (8.6% of usable vessels) were estimated to occur within the NPZ boundary. Of these, all signatures contained a maneuver.\nAt both sites, vessels were present inside the park boundary (\\(P_{in} &gt; 0.75\\)) throughout the deployment, with the highest daily vessel presence by duration occurring in late December (TRE: December 23, 1.78 hours; TRW: December 29, 2.72 hours) (Fig. 6).\n\n\n\nTable 4: Summary of vessel presence and vessels at each recording site estimated to occur within the park boundaries surrounding Two Rocks East and Two Rocks West sites.\n\n\n\n\n\nFigure 6: Daily vessel duration (hour) of vessels estimated within park boundaries(\\(P_{in} &gt; 0.75\\)) T = transit, M = maneuver.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#weekday-vessel-presence-within-park-boundaries",
+    "href": "Results.html#weekday-vessel-presence-within-park-boundaries",
+    "title": "2  Results",
+    "section": "2.7 Weekday Vessel Presence within Park Boundaries",
+    "text": "2.7 Weekday Vessel Presence within Park Boundaries\nAt TRE, Fridays had the highest vessel presence (N = 8), followed by Saturdays, Thursdays, and Tuesdays (N = 6 each day) (Fig. 7). The two transiting vessels without a maneuver occurred on Thursday and Friday (N = 1 vessel each day). At TRW, there was a more apparent effect of weekday, with 39.3% of all vessels with \\(P_{in} &gt; 0.75\\) occurring on Thursdays (N = 11).\n\n\n\nFigure 7: Vessel activity by day of week and behavioral category of vessels estimated within park boundaries(\\(P_{in} &gt; 0.75\\)) T = transit, M = maneuver.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Results.html#diel-vessel-presence-within-park-boundaries",
+    "href": "Results.html#diel-vessel-presence-within-park-boundaries",
+    "title": "2  Results",
+    "section": "2.8 Diel Vessel Presence within Park Boundaries",
+    "text": "2.8 Diel Vessel Presence within Park Boundaries\nAt TRE, all vessels with \\(P_{in} &gt; 0.75\\) occurred between 00:00 - 15:00 AWST (range = 1 – 7 per hour) (Fig. 8). The highest number of vessels during a single hour occurred at 12:00 AWST (N = 7), with all of those vessels containing a maneuver. Transiting vessels without a maneuver were detected at 06:00 and 14:00 (N = 1 each hour).\nTRW showed a similar concentration of vessel activity early in the day, with the majority of vessels within the NPZ occurring between 05:00 and 15:00 AWST (N = 32, range = 1 – 6 per hour) (Fig. 8). The single vessel outside of daylight hours occurred at 22:00 AWST. Vessel activity peaked at 10:00 (N = 6), with a secondary peak at 08:00 (N = 4).\n\n\n\nFigure 8: Counts of vessel signatures estimated within park boundaries(\\(P_{in} &gt; 0.75\\)) per hour separated by behavioral category. Hourly presence counts reflect the start time of each vessel signature. Times are reported in local time (AWST, UTC+8). T = transit, M = maneuver.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "Discussion.html",
+    "href": "Discussion.html",
+    "title": "3  Discussion and Recommendations",
+    "section": "",
+    "text": "3.1 Patterns of vessel presence\nVessel signatures were present throughout the recordings made at two sites within the Two Rocks Marine Park NPZ. The deployment period captured vessel presence during two major holidays: Christmas Day (25-Dec) and New Year’s Day (01-Jan). Vessels, particularly those containing maneuvers, increased in presence leading up to each holiday; however, the holidays themselves showed a marked decrease in presence. Overall, vessels were most prevalent towards the end of the week, and this general pattern may have contributed to lower presence on Christmas Day and New Year’s Day which both occurred on Sundays during the deployment period. Total vessel presence was also highest during daylight hours, which is consistent with other monitored parks.\nThe majority of vessels were estimated to occur outside of the park boundaries (\\(P_{in} &gt; 0.75\\)) = TRE: 33/548 usable vessels, 94.0%; TRW: 28/327 usable vessels, 91.4%), which suggests relatively high compliance as in other analyzed NPZs: Ningaloo Marine Park (nwninnpz02)(McCordic et al. 2021), Dampier Marine Park (nwdamnpz01) (McCordic et al. 2022), Cod Grounds Marine Park (tecodnpz01) (Kline et al. 2020; McCordic et al. 2020), Solitary Islands Marine Park (tesolnpz02) (Kline et al. 2020; McCordic et al. 2020). Vessels within the NPZ boundaries showed similar temporal patterns in terms of weekday and diel presence as the patterns seen in all detected vessels. Most vessels occurred late in the week and on weekends, and most vessels were present within the NPZ boundaries between late morning and early afternoon. Between the two sites, the majority of vessels within the NPZ boundaries contained maneuvers, and vessels with maneuvers were driving the observed weekday and diel patterns of vessels within the NPZ.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Discussion and Recommendations</span>"
+    ]
+  },
+  {
+    "objectID": "Discussion.html#recommendations-for-monitoring",
+    "href": "Discussion.html#recommendations-for-monitoring",
+    "title": "3  Discussion and Recommendations",
+    "section": "3.2 Recommendations for monitoring",
+    "text": "3.2 Recommendations for monitoring\nAs seen previously at Two Rocks Marine Park, the total vessel counts over the deployment period are considerably higher than other reported NPZs, which is likely due to the proximity of the park to Perth as well as its proximity to shore. Despite a low recall value of the detector at both sites, due to the overall high vessel numbers in Two Rocks Marine Park and a relatively high precision of the detector, the ship detector alone is likely sufficient to determine general patterns of vessel presence without additional manual review.\nVessels were estimated to occur within the NPZ boundaries throughout the entire deployment period, and the majority of those vessels contained at least one maneuver. Although a maneuver is not diagnostic of a vessel’s specific activity, it can be used as a proxy for fishing activity and warrants further investigation (e.g., Kline et al. 2020). Similar to total vessel presence, activity of vessels estimated within the NPZ boundaries showed a peak prior to the Christmas and New Year’s Day holidays.\nDue to the high prevalence of vessel signatures late in the week—Thursday through Saturday—we recommend increased patrol efforts on these days. During holiday periods, additional surveys on days leading up to holidays may also result in increased interactions with vessels in the NPZ rather than surveying on the holidays themselves. This pattern may change in other years, however, depending on the weekday on which holidays occur (e.g., if the holidays fall on a later weekday rather than a Sunday). Since the majority of vessels occur early in the day, visual patrols (aerial or ship-based) focusing on these times would provide a valuable complement to the results presented here.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Discussion and Recommendations</span>"
+    ]
+  }
+]
