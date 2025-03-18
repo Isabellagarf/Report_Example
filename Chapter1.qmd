@@ -2,7 +2,6 @@
 title: Site description and recording effort
 ---
 
-Testing render and publish 
 
 
 Two Rocks Marine Park is part of the South-west Regional Management Network of the
