@@ -17,8 +17,7 @@ renv::dependencies()
 <hr>
 
 ## Template notes
-
-* Render and publish will fail if you do not change the following settings: Actions --> General --> read and write permissions
+Render and publish will fail if you do not change the following settings: Actions --> General --> read and write permissions
 
 
 ## Disclaimer
