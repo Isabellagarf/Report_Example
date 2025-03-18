@@ -27,6 +27,8 @@ jobs:
         with:
           # To install LaTeX to build PDF book 
           tinytex: true 
+          run: tinytex::tlmgr_update()
+ 
           
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
