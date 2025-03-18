@@ -1,6 +1,6 @@
 # NOAA Quarto Tech Memo
 
-This is a template repo to create report with a NOAA tech memo format in pdf, html, or docx format.
+This is a template repo to create report with a NOAA tech memo format in pdf, html, or docx format. The original template was created by Eli Holmes. This template is for my own modifications/practice, and to troubleshoot render and publish errors. 
 
 ## R package dependencies
 
